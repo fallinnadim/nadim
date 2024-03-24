@@ -11807,6 +11807,12 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   color: #3582C4;
 }
 
+.resume-section-title2 {
+  font-size: 1.25rem;
+  position: relative;
+  color: #22A162;
+}
+
 .resume-section-title:after {
   content: "";
   position: absolute;
@@ -11824,6 +11830,9 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-timeline {
   padding-left: 2rem;
 }
+.resume-timeline2 {
+  padding-left: 2rem;
+}
 
 .resume-timeline:before {
   content: "";
@@ -11831,6 +11840,16 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   width: 3px;
   height: 100%;
   background: #d2e4f3;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+.resume-timeline2:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background: #a3ecc8;
   left: 6px;
   top: 4px;
   position: absolute;
@@ -11845,6 +11864,19 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   width: 15px;
   height: 15px;
   border: 4px solid #5a9bd2;
+  background: white;
+  border-radius: 50%;
+}
+
+.resume-timeline-item2:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #2bcb7c;
   background: white;
   border-radius: 50%;
 }
